@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Halaman Login</title>
+  <meta name="description" content="Halaman login sederhana menggunakan HTML dan Bootstrap">
+  <meta name="keywords" content="login,html,bootstrap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="d-flex">
+        <img src="https://yt3.googleusercontent.com/ytc/AMLnZu-cxf4VVDMhkAa3C7hh7sIyVRtP1JBXzweTA-Wz=s900-c-k-c0x00ffffff-no-rj" alt="My Image" class="mx-auto">
+    </div>
+    <form action="/dashboard.html" method="post">
+      <div class="form-group">
+        <label for="username">USERNAME</label>
+        <input type="text" class="form-control" id="username" name="username" placeholder="Silahkan Masukkan username">
+      </div>
+      <div class="form-group">
+        <label for="password">PASSWORD</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Silahkan Masukkan password">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+      <a href="#">Register</a>
+    </form>
+  </div>
+</body>
+</html>

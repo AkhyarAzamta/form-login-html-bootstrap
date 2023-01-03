@@ -1,0 +1,26 @@
+img {
+    width: 150px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+  }
+
+  form {
+    width: 30%;
+    margin: auto;
+  }
+
+  /* @media (max-width: 768px) {
+    form {
+      width: 20%;
+    }
+  }
+
+  @media (max-width: 1980px) {
+    form {
+      width: 30%;
+    }
+  } */
