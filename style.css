@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(187, 226, 226);
+}
 img {
     width: 150px;
     align-items: center;
@@ -9,10 +12,20 @@ label {
 }
 
 form {
-    width: 30%;
+    width: 60%;
     margin: auto;
 }
 
 .col-2 {
     height: 100vh;
+}
+
+.container {
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 2rem;
+    
+
 }
