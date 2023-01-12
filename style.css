@@ -1,6 +1,11 @@
 body {
-    background-color: rgb(187, 226, 226);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(40, 144, 172),rgba(10, 225, 142, 0.8));
+    /* background-color: rgb(187, 226, 226); */
 }
+
 img {
     width: 150px;
     align-items: center;
@@ -26,6 +31,10 @@ form {
     border-radius: 10px;
     border: 1px solid;
     padding: 2rem;
-    
+    margin-top: 9em;
 
+}
+
+.valid{
+    justify-content: center;
 }
